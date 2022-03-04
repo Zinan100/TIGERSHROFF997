@@ -216,7 +216,7 @@ else:
 
 updater = tg.Updater(BOT_TOKEN, workers=WORKERS)
 
-telethn = TelegramClient("masha", API_ID, API_HASH)
+telethon = TelegramClient("masha", API_ID, API_HASH)
 
 pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 

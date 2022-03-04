@@ -1,4 +1,4 @@
-from MashaRoBot import telethn as tbot
+from MashaRoBot import telethon as tbot
 import json
 import requests
 from MashaRoBot.events import register

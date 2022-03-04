@@ -214,7 +214,7 @@ else:
         LOGGER.warning("Can't connect to SpamWatch!")
 
 
-updater = tg.Updater(BOT_TOKEN, workers=con_text=True)
+updater = tg.Updater(BOT_TOKEN, workers=WORKERS)
 
 telethn = TelegramClient("masha", API_ID, API_HASH)
 
